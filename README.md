@@ -1,6 +1,6 @@
 # KoalaTable
 
-KoalaTable je komponenta tvořená ve frameworku React jako zkušební úloha
+KoalaTabulka je komponenta tvořená ve frameworku React jako zkušební úloha
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
