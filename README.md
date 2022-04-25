@@ -19,3 +19,5 @@ udělat, aby se při smazání řádku všechny nezabalili
 vyřešit warningy v consoli
 
 zkusit udělat automatické vytváření sloupců tabulky podle dat v json souboru
+
+zkusit publikovat na https://codesandbox.io/
