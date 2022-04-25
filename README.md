@@ -16,6 +16,6 @@ vzor řešení: https://github.com/pribyto4/KoalaTable/blob/main/public/example-
 
 udělat, aby se při smazání řádku všechny nezabalili
 
-odstranit warningy v consoli
+vyřešit warningy v consoli
 
 zkusit udělat automatické vytváření sloupců tabulky podle dat v json souboru
