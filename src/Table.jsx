@@ -39,7 +39,7 @@ export default function Table({ columns: userColumns, data, renderRowSubComponen
             prepareRow(row) //this function needs to be called for each row before getting the row props
             return (
               // Use a React.Fragment here so the table markup is still valid
-              <React.Fragment {...row.getRowProps()}>
+              <React.Fragment key={row.getRowProps().key}>
                 <tr>
                   {row.cells.map(cell => {
                     return (
