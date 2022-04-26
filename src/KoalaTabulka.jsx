@@ -29,7 +29,7 @@ export default function KoalaTabulka({dataInJson}) {
             {
               //expand jen pokud existuje kid pro akutální řádek
               Object.keys(data[row.index].kids).length === 0 ? null :
-                row.isExpanded ? '👇' : '👉'    //je řádek expandovaný?
+                row.isExpanded ? '👇' : '👉'    //je řádek expandovaný? 
             }
           </span>
         ),
