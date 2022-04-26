@@ -2,7 +2,7 @@
 
 KoalaTabulka je komponenta tvořená ve frameworku React jako zkušební úloha
 
-ukázka aplikace: https://codesandbox.io/embed/hungry-shape-trtinv?fontsize=14&hidenavigation=1&theme=dark&view=preview
+ukázka aplikace: https://codesandbox.io/embed/brave-kate-0jx6j5?fontsize=14&hidenavigation=1&theme=dark&view=preview
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
