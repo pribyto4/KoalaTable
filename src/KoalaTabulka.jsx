@@ -27,9 +27,11 @@ export default function KoalaTabulka({dataInJson}) {
           // to build the expander.
           <span {...row.getToggleRowExpandedProps()}>
             {
-              //expand jen pokud existuje kid pro akutální řádek
-              Object.keys(data[row.index].kids).length === 0 ? null :
-                row.isExpanded ? '👇' : '👉'    //je řádek expandovaný? 
+              //expand ikona jen pokud existuje kid s daty pro akutální řádek
+              Object.keys(data[row.index].kids).length!==0 ? 
+                Object.keys(data[row.index].kids.has_relatives.records).length === 0 ? null :
+                  row.isExpanded ? '👇' : '👉'    //je řádek expandovaný? 
+              : null 
             }
           </span>
         ),
@@ -118,9 +120,11 @@ export default function KoalaTabulka({dataInJson}) {
           // to build the expander.
           <span {...row.getToggleRowExpandedProps()}>
             {
-              //expand jen pokud existuje kid pro akutální řádek
-              Object.keys(data[parentRowIndex].kids.has_relatives.records[row.index].kids).length === 0 ? null :
-                row.isExpanded ? '👇' : '👉'    //je řádek expandovaný?
+              //expand ikona jen pokud existuje kid s daty pro akutální řádek
+              Object.keys(data[parentRowIndex].kids.has_relatives.records[row.index].kids).length!==0 ?
+                Object.keys(data[parentRowIndex].kids.has_relatives.records[row.index].kids.has_phone.records).length === 0 ? null :
+                  row.isExpanded ? '👇' : '👉'    //je řádek expandovaný?
+              : null    
             }
           </span>
         ),
